@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <Button
+            android:id="@+id/outageID"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="192dp"
+            android:text="@string/outages" />
+
+        <Button
+            android:id="@+id/alarmsID"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/outageID"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="74dp"
+            android:text="@string/alarms" />
+
+        <Button
+            android:id="@+id/nodeID"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/alarmsID"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"
+            android:text="@string/nodes" />
+
+    </RelativeLayout>
